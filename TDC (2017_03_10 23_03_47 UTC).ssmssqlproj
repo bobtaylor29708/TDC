@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TDC">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SQLBOBT\SQL2K16:REDMOND\bobtay">
+          <Created>2016-09-13T08:52:08.5392352-04:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLBOBT\SQL2K16</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01 dbo.CleanUpTDCObjects.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLBOBT\SQL2K16:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLBOBT\SQL2K16</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01 dbo.CleanUpTDCObjects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 dbo.usp_tdc_create_schema.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>02 dbo.usp_tdc_create_schema.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 dbo.ufn_tdc_objects_exists.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03 dbo.ufn_tdc_objects_exists.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 dbo.ufn_is_tdc_enabled.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04 dbo.ufn_is_tdc_enabled.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 dbo.usp_tdc_enable_db.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>05 dbo.usp_tdc_enable_db.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 dbo execute usp_tdc_enable_db.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06 dbo execute usp_tdc_enable_db.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 dbo.usp_tdc_disable_db.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>07 dbo.usp_tdc_disable_db.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 tdc.usp_GetColumnInfo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>08 tdc.usp_GetColumnInfo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 tdc.usp_GetJoinInfo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>09 tdc.usp_GetJoinInfo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 tdc.usp_tdc_enable_table_internal.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>10 tdc.usp_tdc_enable_table_internal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 tdc.usp_tdc_disable_table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>11 tdc.usp_tdc_disable_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 tdc.usp_tdc_enable_table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12 tdc.usp_tdc_enable_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13 tdc.ufn_ColumnType.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>13 tdc.ufn_ColumnType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14 tdc.usp_CanTableBeTDC_Enabled.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>14 tdc.usp_CanTableBeTDC_Enabled.sql</FullPath>
+        </FileNode>
+        <FileNode Name="A3 test_patient_changes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLBOBT\SQL2K16:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLBOBT\SQL2K16</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>A3 test_patient_changes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="A4 Restore TemporalTest Database.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>A4 Restore TemporalTest Database.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
