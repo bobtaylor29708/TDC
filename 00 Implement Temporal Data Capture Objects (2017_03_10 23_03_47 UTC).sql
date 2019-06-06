@@ -1,15 +1,16 @@
 -- Note: you must use SQLCMD mode for this script
-:r '01dbo.CleanUpTDCObjects.sql'
-:r '02dbo.usp_tdc_create_schema.sql'
-:r '03dbo.ufn_tdc_objects_exists.sql'
-:r '04dbo.ufn_is_tdc_enabled.sql'
-:r '05dbo.usp_tdc_enable_db.sql'
-:r '06dbo execute usp_tdc_enable_db.sql'
-:r '07dbo.usp_tdc_disable_db.sql'
-:r '08tdc.usp_GetColumnInfo.sql'
-:r '09tdc.usp_GetJoinInfo.sql'
-:r '10tdc.usp_tdc_enable_table_internal.sql'
-:r '11tdc.usp_tdc_disable_table.sql'
-:r '12tdc.usp_tdc_enable_table.sql'
-:r '13tdc.ufn_ColumnType.sql'
-:r '14tdc.usp_CanTableBeTDC_Enabled.sql'
+:setvar path "C:\Users\bobtay\Documents\TDCSQL\TDC\TDC Scripts\"
+:r $(path)"01 dboCleanUpTDCObjects.sql"
+:r $(path)"02 dbo.usp_tdc_create_schema.sql"
+:r $(path)"03 dbo.ufn_tdc_objects_exists.sql"
+:r $(path)"04 dbo.ufn_is_tdc_enabled.sql"
+:r $(path)"05 dbo.usp_tdc_enable_db.sql"
+:r $(path)"06 dbo execute usp_tdc_enable_db.sql"
+:r $(path)"07 dbo.usp_tdc_disable_db.sql"
+:r $(path)"08 tdc.usp_GetColumnInfo.sql"
+:r $(path)"09 tdc.usp_GetJoinInfo.sql"
+:r $(path)"10 tdc.usp_tdc_enable_table_internal.sql"
+:r $(path)"11 tdc.usp_tdc_disable_table.sql"
+:r $(path)"12 tdc.usp_tdc_enable_table.sql"
+:r $(path)"13 tdc.ufn_ColumnType.sql"
+:r $(path)"14 tdc.usp_CanTableBeTDC_Enabled.sql"
