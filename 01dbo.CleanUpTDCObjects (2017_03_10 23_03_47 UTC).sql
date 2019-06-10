@@ -5,7 +5,7 @@ We grant You a nonexclusive, royalty-free right to use and modify the
 Sample Code and to reproduce and distribute the object code form of the Sample Code, provided that You agree: (i) to not use Our name, logo, or trademarks to market Your software product in which the Sample Code is embedded; 
 (ii) to include a valid copyright notice on Your software product in which the Sample Code is 
 embedded; and 
-(iii) to indemnify, hold harmless, and defend Us and Our suppliers from and against any claims or lawsuits, including attorneys’ fees, that arise or result from the use or distribution of the Sample Code.
+(iii) to indemnify, hold harmless, and defend Us and Our suppliers from and against any claims or lawsuits, including attorneysâ€™ fees, that arise or result from the use or distribution of the Sample Code.
 Please note: None of the conditions outlined in the disclaimer above will supercede the terms and conditions contained within the Premier Customer Services Description.
 */
 
@@ -36,7 +36,7 @@ DROP TABLE IF EXISTS [tdc].[Version];
 DROP SCHEMA
 
 IF EXISTS [tdc];
-DECLARE @schemaName SYSNAME = Db_name() + _tdc_history
+DECLARE @schemaName SYSNAME = REPLACE(DB_NAME(),'-','_') + _tdc_history
 DECLARE @dropstmt NVARCHAR(255) = NDROP SCHEMA IF EXISTS  + @schemaName
 
 EXEC (@dropstmt)
